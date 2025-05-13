@@ -48,3 +48,5 @@ const resgiterUser = async (req, res) => {
       });
     }
   };
+
+  module.exports = { resgiterUser };

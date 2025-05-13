@@ -9,3 +9,5 @@ const validateRegistration = (data) => {
 
   return schema.validate(data);
 };  
+
+module.exports = { validateRegistration };
