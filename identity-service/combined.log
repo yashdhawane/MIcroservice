@@ -86,3 +86,32 @@
 {"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-05-13T11:25:32.355Z"}
 {"level":"info","message":"Registration endpoint hit...","service":"identity-service","timestamp":"2025-05-13T11:25:32.358Z"}
 {"level":"warn","message":"User already exists","service":"identity-service","timestamp":"2025-05-13T11:25:32.492Z"}
+{"level":"info","message":"Identity service running on port 3001","service":"identity-service","timestamp":"2025-05-13T11:34:17.093Z"}
+{"level":"info","message":"MongoDB connected","service":"identity-service","timestamp":"2025-05-13T11:34:17.818Z"}
+{"level":"info","message":"Received POST request to /api/auth/register","service":"identity-service","timestamp":"2025-05-13T11:35:29.781Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-05-13T11:35:29.782Z"}
+{"level":"info","message":"Registration endpoint hit...","service":"identity-service","timestamp":"2025-05-13T11:35:29.817Z"}
+{"level":"warn","message":"User already exists","service":"identity-service","timestamp":"2025-05-13T11:35:29.876Z"}
+{"level":"info","message":"Received POST request to /api/auth/register","service":"identity-service","timestamp":"2025-05-13T11:38:13.669Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-05-13T11:38:13.671Z"}
+{"level":"info","message":"Registration endpoint hit...","service":"identity-service","timestamp":"2025-05-13T11:38:13.696Z"}
+{"level":"warn","message":"User already exists","service":"identity-service","timestamp":"2025-05-13T11:38:13.772Z"}
+{"level":"info","message":"Received POST request to /api/auth/register","service":"identity-service","timestamp":"2025-05-13T11:38:44.232Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-05-13T11:38:44.233Z"}
+{"level":"info","message":"Registration endpoint hit...","service":"identity-service","timestamp":"2025-05-13T11:38:44.240Z"}
+{"buffer":{"data":[104,35,47,68,108,1,32,112,125,47,6,207],"type":"Buffer"},"level":"warn","message":"User saved successfully","service":"identity-service","timestamp":"2025-05-13T11:38:44.580Z"}
+{"level":"info","message":"Identity service running on port 3001","service":"identity-service","timestamp":"2025-05-13T11:45:19.303Z"}
+{"level":"info","message":"MongoDB connected","service":"identity-service","timestamp":"2025-05-13T11:45:19.961Z"}
+{"level":"info","message":"Received POST request to /api/auth/register","service":"identity-service","timestamp":"2025-05-13T11:46:01.295Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-05-13T11:46:01.296Z"}
+{"level":"info","message":"Registration endpoint hit...","service":"identity-service","timestamp":"2025-05-13T11:46:01.316Z"}
+{"level":"warn","message":"User already exists","service":"identity-service","timestamp":"2025-05-13T11:46:01.371Z"}
+{"level":"info","message":"Received POST request to /api/auth/register","service":"identity-service","timestamp":"2025-05-13T11:46:02.305Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-05-13T11:46:02.306Z"}
+{"level":"info","message":"Registration endpoint hit...","service":"identity-service","timestamp":"2025-05-13T11:46:02.311Z"}
+{"level":"warn","message":"User already exists","service":"identity-service","timestamp":"2025-05-13T11:46:02.340Z"}
+{"level":"info","message":"Received POST request to /api/auth/register","service":"identity-service","timestamp":"2025-05-13T11:46:03.193Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-05-13T11:46:03.194Z"}
+{"level":"warn","message":"Rate limit exceeded for IP: ::1","service":"identity-service","timestamp":"2025-05-13T11:46:03.198Z"}
+{"level":"info","message":"Identity service running on port 3001","service":"identity-service","timestamp":"2025-05-13T11:46:55.838Z"}
+{"level":"info","message":"MongoDB connected","service":"identity-service","timestamp":"2025-05-13T11:46:56.953Z"}
