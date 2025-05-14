@@ -1,0 +1,153 @@
+{"level":"info","message":"API Gateway is running on port 3000","service":"api-gateway","timestamp":"2025-05-14T07:24:50.103Z"}
+{"level":"info","message":"Identity service is running on port http://localhost:3001","service":"api-gateway","timestamp":"2025-05-14T07:24:50.110Z"}
+{"level":"info","message":"Redis is running on port redis://localhost:6379","service":"api-gateway","timestamp":"2025-05-14T07:24:50.111Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"api-gateway","timestamp":"2025-05-14T07:25:08.471Z"}
+{"level":"info","message":"Identity service is running on port http://localhost:3001","service":"api-gateway","timestamp":"2025-05-14T07:25:08.478Z"}
+{"level":"info","message":"Redis is running on port redis://localhost:6379","service":"api-gateway","timestamp":"2025-05-14T07:25:08.479Z"}
+{"level":"info","message":"API Gateway is running on port 3001","service":"api-gateway","timestamp":"2025-05-14T07:26:39.568Z"}
+{"level":"info","message":"Identity service is running on port http://localhost:3002","service":"api-gateway","timestamp":"2025-05-14T07:26:39.574Z"}
+{"level":"info","message":"Redis is running on port redis://localhost:6379","service":"api-gateway","timestamp":"2025-05-14T07:26:39.575Z"}
+{"level":"info","message":"Received POST xrequest to /v1/auth/register","service":"api-gateway","timestamp":"2025-05-14T07:26:51.051Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-05-14T07:26:51.052Z"}
+{"level":"error","message":"Proxy error: ","service":"api-gateway","timestamp":"2025-05-14T07:26:51.060Z"}
+{"level":"info","message":"Received POST xrequest to /v1/auth/register","service":"api-gateway","timestamp":"2025-05-14T07:31:09.209Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-05-14T07:31:09.211Z"}
+{"level":"info","message":"Response received from Identity service: 400","service":"api-gateway","timestamp":"2025-05-14T07:31:09.476Z"}
+{"level":"info","message":"Received POST xrequest to /v1/auth/register","service":"api-gateway","timestamp":"2025-05-14T07:31:24.701Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-05-14T07:31:24.703Z"}
+{"level":"info","message":"Response received from Identity service: 201","service":"api-gateway","timestamp":"2025-05-14T07:31:25.272Z"}
+{"level":"info","message":"API Gateway is running on port 3001","service":"api-gateway","timestamp":"2025-05-14T13:52:30.196Z"}
+{"level":"info","message":"Identity service is running on port http://localhost:3002","service":"api-gateway","timestamp":"2025-05-14T13:52:30.204Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3003","service":"api-gateway","timestamp":"2025-05-14T13:52:30.204Z"}
+{"level":"info","message":"Redis is running on port redis://localhost:6379","service":"api-gateway","timestamp":"2025-05-14T13:52:30.204Z"}
+{"level":"info","message":"Received POST xrequest to /v1/posts/create-post","service":"api-gateway","timestamp":"2025-05-14T13:53:37.358Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-05-14T13:53:37.358Z"}
+{"level":"warn","message":"Access attempted without token","service":"api-gateway","timestamp":"2025-05-14T13:53:37.359Z"}
+{"level":"info","message":"Received POST xrequest to /v1/auth/register","service":"api-gateway","timestamp":"2025-05-14T13:54:44.800Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-05-14T13:54:44.801Z"}
+{"level":"info","message":"Response received from Identity service: 201","service":"api-gateway","timestamp":"2025-05-14T13:54:45.170Z"}
+{"level":"info","message":"Received POST xrequest to /v1/posts/create-post","service":"api-gateway","timestamp":"2025-05-14T13:55:56.626Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-05-14T13:55:56.627Z"}
+{"level":"warn","message":"Invalid token","service":"api-gateway","timestamp":"2025-05-14T13:55:56.628Z"}
+{"level":"info","message":"Received POST xrequest to /v1/posts/create-post","service":"api-gateway","timestamp":"2025-05-14T13:57:05.655Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-05-14T13:57:05.656Z"}
+{"level":"warn","message":"Invalid token","service":"api-gateway","timestamp":"2025-05-14T13:57:05.656Z"}
+{"level":"info","message":"API Gateway is running on port 3001","service":"api-gateway","timestamp":"2025-05-14T13:57:35.423Z"}
+{"level":"info","message":"Identity service is running on port http://localhost:3002","service":"api-gateway","timestamp":"2025-05-14T13:57:35.429Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3003","service":"api-gateway","timestamp":"2025-05-14T13:57:35.429Z"}
+{"level":"info","message":"Redis is running on port redis://localhost:6379","service":"api-gateway","timestamp":"2025-05-14T13:57:35.429Z"}
+{"level":"info","message":"Received POST xrequest to /v1/posts/create-post","service":"api-gateway","timestamp":"2025-05-14T13:57:41.942Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-05-14T13:57:41.943Z"}
+{"level":"warn","message":"Access attempted without token","service":"api-gateway","timestamp":"2025-05-14T13:57:41.944Z"}
+{"level":"error","message":"Unexpected non-whitespace character after JSON at position 94","service":"identity-service","stack":"SyntaxError: Unexpected non-whitespace character after JSON at position 94\n    at JSON.parse (<anonymous>)\n    at parse (C:\\Users\\Yash.Dhawane\\OneDrive - Reliance Corporate IT Park Limited\\Documents\\study\\micro\\MIcroservice\\api-gateway\\node_modules\\body-parser\\lib\\types\\json.js:77:19)\n    at C:\\Users\\Yash.Dhawane\\OneDrive - Reliance Corporate IT Park Limited\\Documents\\study\\micro\\MIcroservice\\api-gateway\\node_modules\\body-parser\\lib\\read.js:123:18\n    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)\n    at invokeCallback (C:\\Users\\Yash.Dhawane\\OneDrive - Reliance Corporate IT Park Limited\\Documents\\study\\micro\\MIcroservice\\api-gateway\\node_modules\\raw-body\\index.js:238:16)\n    at done (C:\\Users\\Yash.Dhawane\\OneDrive - Reliance Corporate IT Park Limited\\Documents\\study\\micro\\MIcroservice\\api-gateway\\node_modules\\raw-body\\index.js:227:7)\n    at IncomingMessage.onEnd (C:\\Users\\Yash.Dhawane\\OneDrive - Reliance Corporate IT Park Limited\\Documents\\study\\micro\\MIcroservice\\api-gateway\\node_modules\\raw-body\\index.js:287:7)\n    at IncomingMessage.emit (node:events:518:28)\n    at endReadableNT (node:internal/streams/readable:1696:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2025-05-14T13:58:27.430Z"}
+{"level":"info","message":"Received POST xrequest to /v1/auth/register","service":"api-gateway","timestamp":"2025-05-14T13:58:37.966Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-05-14T13:58:37.966Z"}
+{"level":"info","message":"Response received from Identity service: 400","service":"api-gateway","timestamp":"2025-05-14T13:58:38.012Z"}
+{"level":"info","message":"Received POST xrequest to /v1/auth/register","service":"api-gateway","timestamp":"2025-05-14T13:59:44.535Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-05-14T13:59:44.535Z"}
+{"level":"info","message":"Response received from Identity service: 201","service":"api-gateway","timestamp":"2025-05-14T13:59:44.747Z"}
+{"level":"info","message":"Received POST xrequest to /v1/posts/create-post","service":"api-gateway","timestamp":"2025-05-14T14:00:21.773Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-05-14T14:00:21.773Z"}
+{"level":"warn","message":"Access attempted without token","service":"api-gateway","timestamp":"2025-05-14T14:00:21.774Z"}
+{"level":"info","message":"Received POST xrequest to /v1/posts/create-post","service":"api-gateway","timestamp":"2025-05-14T14:01:23.572Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-05-14T14:01:23.573Z"}
+{"level":"warn","message":"Access attempted without token","service":"api-gateway","timestamp":"2025-05-14T14:01:23.573Z"}
+{"level":"info","message":"Received POST xrequest to /v1/auth/login","service":"api-gateway","timestamp":"2025-05-14T14:08:56.386Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-05-14T14:08:56.395Z"}
+{"level":"info","message":"Response received from Identity service: 400","service":"api-gateway","timestamp":"2025-05-14T14:08:56.516Z"}
+{"level":"info","message":"Received POST xrequest to /v1/auth/login","service":"api-gateway","timestamp":"2025-05-14T14:09:02.250Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-05-14T14:09:02.250Z"}
+{"level":"info","message":"Response received from Identity service: 200","service":"api-gateway","timestamp":"2025-05-14T14:09:02.752Z"}
+{"level":"info","message":"Received POST xrequest to /v1/posts/create-post","service":"api-gateway","timestamp":"2025-05-14T14:09:41.942Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-05-14T14:09:41.943Z"}
+{"level":"warn","message":"Access attempted without token","service":"api-gateway","timestamp":"2025-05-14T14:09:41.944Z"}
+{"level":"info","message":"Received POST xrequest to /v1/posts/create-post","service":"api-gateway","timestamp":"2025-05-14T14:10:08.364Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-05-14T14:10:08.365Z"}
+{"level":"warn","message":"Access attempted without token","service":"api-gateway","timestamp":"2025-05-14T14:10:08.365Z"}
+{"level":"info","message":"API Gateway is running on port 3001","service":"api-gateway","timestamp":"2025-05-14T14:10:40.023Z"}
+{"level":"info","message":"Identity service is running on port http://localhost:3002","service":"api-gateway","timestamp":"2025-05-14T14:10:40.036Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3003","service":"api-gateway","timestamp":"2025-05-14T14:10:40.037Z"}
+{"level":"info","message":"Redis is running on port redis://localhost:6379","service":"api-gateway","timestamp":"2025-05-14T14:10:40.038Z"}
+{"level":"info","message":"Received POST xrequest to /v1/posts/create-post","service":"api-gateway","timestamp":"2025-05-14T14:10:50.590Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-05-14T14:10:50.591Z"}
+{"level":"warn","message":"Invalid token","service":"api-gateway","timestamp":"2025-05-14T14:10:50.593Z"}
+{"level":"info","message":"Received POST xrequest to /v1/auth/login","service":"api-gateway","timestamp":"2025-05-14T14:11:37.617Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-05-14T14:11:37.618Z"}
+{"level":"info","message":"Response received from Identity service: 200","service":"api-gateway","timestamp":"2025-05-14T14:11:37.880Z"}
+{"level":"info","message":"Received POST xrequest to /v1/posts/create-post","service":"api-gateway","timestamp":"2025-05-14T14:12:06.816Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-05-14T14:12:06.817Z"}
+{"level":"warn","message":"Invalid token","service":"api-gateway","timestamp":"2025-05-14T14:12:06.824Z"}
+{"level":"info","message":"Received POST xrequest to /v1/posts/create-post","service":"api-gateway","timestamp":"2025-05-14T14:13:01.352Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-05-14T14:13:01.353Z"}
+{"level":"warn","message":"Invalid token","service":"api-gateway","timestamp":"2025-05-14T14:13:01.355Z"}
+{"level":"info","message":"Received POST xrequest to /v1/posts/create-post","service":"api-gateway","timestamp":"2025-05-14T14:13:16.399Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-05-14T14:13:16.400Z"}
+{"level":"warn","message":"Access attempted without token","service":"api-gateway","timestamp":"2025-05-14T14:13:16.402Z"}
+{"level":"info","message":"API Gateway is running on port 3001","service":"api-gateway","timestamp":"2025-05-14T14:13:32.009Z"}
+{"level":"info","message":"Identity service is running on port http://localhost:3002","service":"api-gateway","timestamp":"2025-05-14T14:13:32.018Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3003","service":"api-gateway","timestamp":"2025-05-14T14:13:32.018Z"}
+{"level":"info","message":"Redis is running on port redis://localhost:6379","service":"api-gateway","timestamp":"2025-05-14T14:13:32.019Z"}
+{"level":"info","message":"API Gateway is running on port 3001","service":"api-gateway","timestamp":"2025-05-14T14:13:42.013Z"}
+{"level":"info","message":"Identity service is running on port http://localhost:3002","service":"api-gateway","timestamp":"2025-05-14T14:13:42.022Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3003","service":"api-gateway","timestamp":"2025-05-14T14:13:42.023Z"}
+{"level":"info","message":"Redis is running on port redis://localhost:6379","service":"api-gateway","timestamp":"2025-05-14T14:13:42.023Z"}
+{"level":"info","message":"Received POST xrequest to /v1/posts/create-post","service":"api-gateway","timestamp":"2025-05-14T14:13:51.082Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-05-14T14:13:51.082Z"}
+{"level":"warn","message":"Access attempted without token","service":"api-gateway","timestamp":"2025-05-14T14:13:51.084Z"}
+{"level":"info","message":"API Gateway is running on port 3001","service":"api-gateway","timestamp":"2025-05-14T14:14:15.872Z"}
+{"level":"info","message":"Identity service is running on port http://localhost:3002","service":"api-gateway","timestamp":"2025-05-14T14:14:15.884Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3003","service":"api-gateway","timestamp":"2025-05-14T14:14:15.885Z"}
+{"level":"info","message":"Redis is running on port redis://localhost:6379","service":"api-gateway","timestamp":"2025-05-14T14:14:15.885Z"}
+{"level":"info","message":"API Gateway is running on port 3001","service":"api-gateway","timestamp":"2025-05-14T14:14:20.447Z"}
+{"level":"info","message":"Identity service is running on port http://localhost:3002","service":"api-gateway","timestamp":"2025-05-14T14:14:20.456Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3003","service":"api-gateway","timestamp":"2025-05-14T14:14:20.457Z"}
+{"level":"info","message":"Redis is running on port redis://localhost:6379","service":"api-gateway","timestamp":"2025-05-14T14:14:20.457Z"}
+{"level":"info","message":"Received POST xrequest to /v1/posts/create-post","service":"api-gateway","timestamp":"2025-05-14T14:14:25.909Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-05-14T14:14:25.910Z"}
+{"level":"warn","message":"Access attempted without token","service":"api-gateway","timestamp":"2025-05-14T14:14:25.915Z"}
+{"level":"info","message":"Received POST xrequest to /v1/posts/create-post","service":"api-gateway","timestamp":"2025-05-14T14:14:43.664Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-05-14T14:14:43.665Z"}
+{"level":"warn","message":"Invalid token","service":"api-gateway","timestamp":"2025-05-14T14:14:43.668Z"}
+{"level":"info","message":"Received POST xrequest to /v1/auth/login","service":"api-gateway","timestamp":"2025-05-14T14:15:20.970Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-05-14T14:15:20.971Z"}
+{"level":"info","message":"Response received from Identity service: 200","service":"api-gateway","timestamp":"2025-05-14T14:15:21.229Z"}
+{"level":"info","message":"Received POST xrequest to /v1/auth/login","service":"api-gateway","timestamp":"2025-05-14T14:15:42.891Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-05-14T14:15:42.892Z"}
+{"level":"info","message":"Response received from Identity service: 400","service":"api-gateway","timestamp":"2025-05-14T14:15:42.916Z"}
+{"level":"info","message":"Received POST xrequest to /v1/posts/create-post","service":"api-gateway","timestamp":"2025-05-14T14:15:55.543Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-05-14T14:15:55.543Z"}
+{"level":"warn","message":"Invalid token","service":"api-gateway","timestamp":"2025-05-14T14:15:55.545Z"}
+{"level":"info","message":"API Gateway is running on port 3001","service":"api-gateway","timestamp":"2025-05-14T14:17:49.749Z"}
+{"level":"info","message":"Identity service is running on port http://localhost:3002","service":"api-gateway","timestamp":"2025-05-14T14:17:49.764Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3003","service":"api-gateway","timestamp":"2025-05-14T14:17:49.765Z"}
+{"level":"info","message":"Redis is running on port redis://localhost:6379","service":"api-gateway","timestamp":"2025-05-14T14:17:49.766Z"}
+{"level":"info","message":"API Gateway is running on port 3001","service":"api-gateway","timestamp":"2025-05-14T14:18:19.032Z"}
+{"level":"info","message":"Identity service is running on port http://localhost:3002","service":"api-gateway","timestamp":"2025-05-14T14:18:19.048Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3003","service":"api-gateway","timestamp":"2025-05-14T14:18:19.049Z"}
+{"level":"info","message":"Redis is running on port redis://localhost:6379","service":"api-gateway","timestamp":"2025-05-14T14:18:19.049Z"}
+{"level":"info","message":"Received POST xrequest to /v1/auth/login","service":"api-gateway","timestamp":"2025-05-14T14:18:35.380Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-05-14T14:18:35.381Z"}
+{"level":"info","message":"Response received from Identity service: 200","service":"api-gateway","timestamp":"2025-05-14T14:18:35.645Z"}
+{"level":"info","message":"Received POST xrequest to /v1/posts/create-post","service":"api-gateway","timestamp":"2025-05-14T14:18:49.985Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-05-14T14:18:49.985Z"}
+{"level":"warn","message":"Invalid token: secret or public key must be provided","service":"api-gateway","timestamp":"2025-05-14T14:18:49.990Z"}
+{"level":"info","message":"Received POST xrequest to /v1/posts/create-post","service":"api-gateway","timestamp":"2025-05-14T14:19:28.001Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-05-14T14:19:28.002Z"}
+{"level":"warn","message":"Invalid token: secret or public key must be provided","service":"api-gateway","timestamp":"2025-05-14T14:19:28.003Z"}
+{"level":"info","message":"API Gateway is running on port 3001","service":"api-gateway","timestamp":"2025-05-14T14:19:51.914Z"}
+{"level":"info","message":"Identity service is running on port http://localhost:3002","service":"api-gateway","timestamp":"2025-05-14T14:19:51.924Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3003","service":"api-gateway","timestamp":"2025-05-14T14:19:51.925Z"}
+{"level":"info","message":"Redis is running on port redis://localhost:6379","service":"api-gateway","timestamp":"2025-05-14T14:19:51.925Z"}
+{"level":"info","message":"Received POST xrequest to /v1/auth/login","service":"api-gateway","timestamp":"2025-05-14T14:20:31.872Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-05-14T14:20:31.873Z"}
+{"level":"info","message":"Response received from Identity service: 200","service":"api-gateway","timestamp":"2025-05-14T14:20:32.059Z"}
+{"level":"info","message":"Received POST xrequest to /v1/posts/create-post","service":"api-gateway","timestamp":"2025-05-14T14:20:46.800Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-05-14T14:20:46.801Z"}
+{"level":"info","message":"Response received from Post service: 400","service":"api-gateway","timestamp":"2025-05-14T14:20:47.102Z"}
+{"level":"info","message":"Received POST xrequest to /v1/posts/create-post","service":"api-gateway","timestamp":"2025-05-14T14:20:54.478Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-05-14T14:20:54.479Z"}
+{"level":"info","message":"Response received from Post service: 201","service":"api-gateway","timestamp":"2025-05-14T14:20:54.778Z"}
+{"level":"info","message":"API Gateway is running on port 3001","service":"api-gateway","timestamp":"2025-05-14T14:21:13.792Z"}
+{"level":"info","message":"Identity service is running on port http://localhost:3002","service":"api-gateway","timestamp":"2025-05-14T14:21:13.800Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3003","service":"api-gateway","timestamp":"2025-05-14T14:21:13.801Z"}
+{"level":"info","message":"Redis is running on port redis://localhost:6379","service":"api-gateway","timestamp":"2025-05-14T14:21:13.801Z"}
