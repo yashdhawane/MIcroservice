@@ -1,4 +1,4 @@
-const Media =require('../model/media-model');
+const Media =require('../model/Media');
 const uploadMediaToCloudinary = require('../utils/cloudinary');
 const logger = require('../utils/logger');
 
@@ -51,5 +51,5 @@ const uploadMedia = async (req, res) => {
 }
 
 module.exports = {
-  uploadMedia,
+  uploadMedia
 };
