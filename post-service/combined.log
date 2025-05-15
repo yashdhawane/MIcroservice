@@ -13,3 +13,81 @@
 {"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-05-14T14:20:54.490Z"}
 {"level":"info","message":"Create post endpoint hit","service":"post-service","timestamp":"2025-05-14T14:20:54.495Z"}
 {"$__":{"$versionError":null,"activePaths":{"paths":{"content":"require","user":"require"},"states":{"default":{},"modify":{},"require":{"content":true,"user":true}}},"backup":{"activePaths":{"default":{"_id":true,"createdAt":true},"modify":{"content":true,"mediaIds":true,"updatedAt":true,"user":true}},"validationError":null},"cachedRequired":{},"inserting":true,"op":null,"pathsToScopes":{"mediaIds":{"__v":0,"_id":"6824a6c60e14e1017ed3c5fe","content":"1245rf","createdAt":"2025-05-14T14:20:54.553Z","mediaIds":[],"updatedAt":"2025-05-14T14:20:54.553Z","user":"6824a0a43e90952709862ba9"}},"saveOptions":null,"savedState":{},"saving":null,"validating":null},"$isNew":false,"_doc":{"__v":0,"_id":"6824a6c60e14e1017ed3c5fe","content":"1245rf","createdAt":"2025-05-14T14:20:54.553Z","mediaIds":[],"updatedAt":"2025-05-14T14:20:54.553Z","user":"6824a0a43e90952709862ba9"},"level":"info","message":"Post created successfully","service":"post-service","timestamp":"2025-05-14T14:20:54.773Z"}
+{"level":"info","message":"Post service running on port 3003","service":"post-service","timestamp":"2025-05-15T07:32:27.638Z"}
+{"level":"info","message":"Connected to mongodb","service":"post-service","timestamp":"2025-05-15T07:32:28.261Z"}
+{"level":"info","message":"Received POST request to /api/posts/create-post","service":"post-service","timestamp":"2025-05-15T07:51:07.844Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-05-15T07:51:07.858Z"}
+{"level":"info","message":"Create post endpoint hit","service":"post-service","timestamp":"2025-05-15T07:51:07.878Z"}
+{"$__":{"$versionError":null,"activePaths":{"paths":{"content":"require","user":"require"},"states":{"default":{},"modify":{},"require":{"content":true,"user":true}}},"backup":{"activePaths":{"default":{"_id":true,"createdAt":true},"modify":{"content":true,"mediaIds":true,"updatedAt":true,"user":true}},"validationError":null},"cachedRequired":{},"inserting":true,"op":null,"pathsToScopes":{"mediaIds":{"__v":0,"_id":"68259ceb8c90fc1bf4c3b719","content":"this is content","createdAt":"2025-05-15T07:51:07.920Z","mediaIds":[],"updatedAt":"2025-05-15T07:51:07.920Z","user":"68259c06dba900cc15539a11"}},"saveOptions":null,"savedState":{},"saving":null,"validating":null},"$isNew":false,"_doc":{"__v":0,"_id":"68259ceb8c90fc1bf4c3b719","content":"this is content","createdAt":"2025-05-15T07:51:07.920Z","mediaIds":[],"updatedAt":"2025-05-15T07:51:07.920Z","user":"68259c06dba900cc15539a11"},"level":"info","message":"Post created successfully","service":"post-service","timestamp":"2025-05-15T07:51:07.999Z"}
+{"level":"info","message":"Post service running on port 3003","service":"post-service","timestamp":"2025-05-15T08:42:45.246Z"}
+{"level":"info","message":"Connected to mongodb","service":"post-service","timestamp":"2025-05-15T08:42:45.765Z"}
+{"level":"info","message":"Received GET request to /api/posts/all-posts","service":"post-service","timestamp":"2025-05-15T08:44:06.210Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-05-15T08:44:06.216Z"}
+{"level":"info","message":"Received GET request to /api/posts/all-posts","service":"post-service","timestamp":"2025-05-15T08:46:20.879Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-05-15T08:46:20.886Z"}
+{"level":"info","message":"Received GET request to /api/posts/all-posts","service":"post-service","timestamp":"2025-05-15T08:46:23.137Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-05-15T08:46:23.137Z"}
+{"level":"info","message":"Received GET request to /api/posts/all-posts","service":"post-service","timestamp":"2025-05-15T08:46:24.652Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-05-15T08:46:24.653Z"}
+{"level":"info","message":"Received GET request to /api/posts/all-posts","service":"post-service","timestamp":"2025-05-15T08:46:25.876Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-05-15T08:46:25.876Z"}
+{"level":"info","message":"Received GET request to /api/posts/all-posts","service":"post-service","timestamp":"2025-05-15T08:46:27.038Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-05-15T08:46:27.039Z"}
+{"level":"info","message":"Received GET request to /api/posts/all-posts","service":"post-service","timestamp":"2025-05-15T08:46:28.109Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-05-15T08:46:28.109Z"}
+{"level":"info","message":"Received POST request to /api/posts/create-post","service":"post-service","timestamp":"2025-05-15T08:46:36.642Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-05-15T08:46:36.643Z"}
+{"level":"info","message":"Create post endpoint hit","service":"post-service","timestamp":"2025-05-15T08:46:36.648Z"}
+{"$__":{"$versionError":null,"activePaths":{"paths":{"content":"require","user":"require"},"states":{"default":{},"modify":{},"require":{"content":true,"user":true}}},"backup":{"activePaths":{"default":{"_id":true,"createdAt":true},"modify":{"content":true,"mediaIds":true,"updatedAt":true,"user":true}},"validationError":null},"cachedRequired":{},"inserting":true,"op":null,"pathsToScopes":{"mediaIds":{"__v":0,"_id":"6825a9ec47090e9b3d4a1ab2","content":"this is content 2","createdAt":"2025-05-15T08:46:36.706Z","mediaIds":[],"updatedAt":"2025-05-15T08:46:36.706Z","user":"68259c06dba900cc15539a11"}},"saveOptions":null,"savedState":{},"saving":null,"validating":null},"$isNew":false,"_doc":{"__v":0,"_id":"6825a9ec47090e9b3d4a1ab2","content":"this is content 2","createdAt":"2025-05-15T08:46:36.706Z","mediaIds":[],"updatedAt":"2025-05-15T08:46:36.706Z","user":"68259c06dba900cc15539a11"},"level":"info","message":"Post created successfully","service":"post-service","timestamp":"2025-05-15T08:46:36.784Z"}
+{"level":"info","message":"Received GET request to /api/posts/all-posts","service":"post-service","timestamp":"2025-05-15T08:46:48.551Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-05-15T08:46:48.552Z"}
+{"level":"info","message":"Received GET request to /api/posts/all-posts","service":"post-service","timestamp":"2025-05-15T08:47:27.947Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-05-15T08:47:27.948Z"}
+{"level":"info","message":"Received POST request to /api/posts/create-post","service":"post-service","timestamp":"2025-05-15T08:47:50.728Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-05-15T08:47:50.729Z"}
+{"level":"info","message":"Create post endpoint hit","service":"post-service","timestamp":"2025-05-15T08:47:50.731Z"}
+{"$__":{"$versionError":null,"activePaths":{"paths":{"content":"require","user":"require"},"states":{"default":{},"modify":{},"require":{"content":true,"user":true}}},"backup":{"activePaths":{"default":{"_id":true,"createdAt":true},"modify":{"content":true,"mediaIds":true,"updatedAt":true,"user":true}},"validationError":null},"cachedRequired":{},"inserting":true,"op":null,"pathsToScopes":{"mediaIds":{"__v":0,"_id":"6825aa3647090e9b3d4a1ab6","content":"this is content 3","createdAt":"2025-05-15T08:47:50.732Z","mediaIds":[],"updatedAt":"2025-05-15T08:47:50.732Z","user":"68259c06dba900cc15539a11"}},"saveOptions":null,"savedState":{},"saving":null,"validating":null},"$isNew":false,"_doc":{"__v":0,"_id":"6825aa3647090e9b3d4a1ab6","content":"this is content 3","createdAt":"2025-05-15T08:47:50.732Z","mediaIds":[],"updatedAt":"2025-05-15T08:47:50.732Z","user":"68259c06dba900cc15539a11"},"level":"info","message":"Post created successfully","service":"post-service","timestamp":"2025-05-15T08:47:50.759Z"}
+{"level":"info","message":"Received GET request to /api/posts/all-posts","service":"post-service","timestamp":"2025-05-15T08:48:02.448Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-05-15T08:48:02.448Z"}
+{"level":"info","message":"Received GET request to /api/posts/all-posts","service":"post-service","timestamp":"2025-05-15T08:48:13.422Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-05-15T08:48:13.422Z"}
+{"level":"info","message":"Post service running on port 3003","service":"post-service","timestamp":"2025-05-15T08:49:50.661Z"}
+{"level":"info","message":"Connected to mongodb","service":"post-service","timestamp":"2025-05-15T08:49:51.511Z"}
+{"level":"info","message":"Post service running on port 3003","service":"post-service","timestamp":"2025-05-15T08:54:49.173Z"}
+{"level":"info","message":"Connected to mongodb","service":"post-service","timestamp":"2025-05-15T08:54:49.932Z"}
+{"level":"info","message":"Received GET request to /api/posts/68259ceb8c90fc1bf4c3b719","service":"post-service","timestamp":"2025-05-15T09:05:09.425Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-05-15T09:05:09.429Z"}
+{"level":"info","message":"Received GET request to /api/posts/68259ceb8c90fc1bf4c3b719","service":"post-service","timestamp":"2025-05-15T09:06:50.284Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-05-15T09:06:50.285Z"}
+{"level":"info","message":"Post service running on port 3003","service":"post-service","timestamp":"2025-05-15T09:07:50.217Z"}
+{"level":"info","message":"Connected to mongodb","service":"post-service","timestamp":"2025-05-15T09:07:50.667Z"}
+{"level":"info","message":"Received GET request to /api/posts/68259ceb8c90fc1bf4c3b719","service":"post-service","timestamp":"2025-05-15T09:07:54.694Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-05-15T09:07:54.694Z"}
+{"level":"info","message":"Received GET request to /api/posts/68259ceb8c90fc1bf4c3b719","service":"post-service","timestamp":"2025-05-15T09:08:20.042Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-05-15T09:08:20.042Z"}
+{"level":"info","message":"Post service running on port 3003","service":"post-service","timestamp":"2025-05-15T09:08:43.906Z"}
+{"level":"info","message":"Connected to mongodb","service":"post-service","timestamp":"2025-05-15T09:08:44.248Z"}
+{"level":"info","message":"Received GET request to /api/posts/68259ceb8c90fc1bf4c3b719","service":"post-service","timestamp":"2025-05-15T09:08:50.842Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-05-15T09:08:50.843Z"}
+{"level":"info","message":"Received GET request to /api/posts/68259ceb8c90fc1bf4c3b719","service":"post-service","timestamp":"2025-05-15T09:09:04.278Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-05-15T09:09:04.278Z"}
+{"level":"info","message":"Received GET request to /api/posts/6825a9ec47090e9b3d4a1ab2","service":"post-service","timestamp":"2025-05-15T09:09:56.296Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-05-15T09:09:56.297Z"}
+{"level":"info","message":"Post service running on port 3003","service":"post-service","timestamp":"2025-05-15T09:11:51.897Z"}
+{"level":"info","message":"Connected to mongodb","service":"post-service","timestamp":"2025-05-15T09:11:52.579Z"}
+{"level":"info","message":"Received GET request to /api/posts/6825a9ec47090e9b3d4a1ab2","service":"post-service","timestamp":"2025-05-15T09:12:11.975Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-05-15T09:12:11.976Z"}
+{"level":"info","message":"Received GET request to /api/posts/6825a9ec47090e9b3d4a1ab2","service":"post-service","timestamp":"2025-05-15T09:12:42.553Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-05-15T09:12:42.553Z"}
+{"level":"info","message":"Received GET request to /api/posts/6825aa3647090e9b3d4a1ab6","service":"post-service","timestamp":"2025-05-15T09:13:12.311Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-05-15T09:13:12.311Z"}
+{"level":"info","message":"Received GET request to /api/posts/6825aa3647090e9b3d4a1ab6","service":"post-service","timestamp":"2025-05-15T09:13:23.417Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-05-15T09:13:23.418Z"}
+{"level":"info","message":"Post service running on port 3003","service":"post-service","timestamp":"2025-05-15T09:18:10.995Z"}
+{"level":"info","message":"Connected to mongodb","service":"post-service","timestamp":"2025-05-15T09:18:11.750Z"}
+{"level":"info","message":"Post service running on port 3003","service":"post-service","timestamp":"2025-05-15T09:18:27.663Z"}
+{"level":"info","message":"Connected to mongodb","service":"post-service","timestamp":"2025-05-15T09:18:27.996Z"}
+{"level":"info","message":"Received GET request to /api/posts/delete-post/6825aa3647090e9b3d4a1ab6","service":"post-service","timestamp":"2025-05-15T09:19:26.773Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-05-15T09:19:26.774Z"}
+{"level":"info","message":"Received DELETE request to /api/posts/delete-post/6825aa3647090e9b3d4a1ab6","service":"post-service","timestamp":"2025-05-15T09:19:37.766Z"}
+{"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-05-15T09:19:37.767Z"}

@@ -162,3 +162,37 @@
 {"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-05-14T14:20:31.888Z"}
 {"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-05-14T14:20:31.889Z"}
 {"level":"info","message":"Login endpoint hit...","service":"identity-service","timestamp":"2025-05-14T14:20:31.893Z"}
+{"level":"info","message":"Identity service running on port 3002","service":"identity-service","timestamp":"2025-05-15T07:32:54.440Z"}
+{"level":"info","message":"MongoDB connected","service":"identity-service","timestamp":"2025-05-15T07:32:54.978Z"}
+{"level":"info","message":"Received POST request to /api/auth/register","service":"identity-service","timestamp":"2025-05-15T07:46:53.780Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-05-15T07:46:53.787Z"}
+{"level":"info","message":"Registration endpoint hit...","service":"identity-service","timestamp":"2025-05-15T07:46:53.810Z"}
+{"level":"warn","message":"User already exists","service":"identity-service","timestamp":"2025-05-15T07:46:53.864Z"}
+{"level":"info","message":"Received POST request to /api/auth/register","service":"identity-service","timestamp":"2025-05-15T07:47:18.076Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-05-15T07:47:18.077Z"}
+{"level":"info","message":"Registration endpoint hit...","service":"identity-service","timestamp":"2025-05-15T07:47:18.083Z"}
+{"buffer":{"data":[104,37,156,6,219,169,0,204,21,83,154,17],"type":"Buffer"},"level":"warn","message":"User saved successfully","service":"identity-service","timestamp":"2025-05-15T07:47:18.300Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-05-15T07:48:16.671Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-05-15T07:48:16.672Z"}
+{"level":"info","message":"Login endpoint hit...","service":"identity-service","timestamp":"2025-05-15T07:48:16.676Z"}
+{"level":"info","message":"Identity service running on port 3002","service":"identity-service","timestamp":"2025-05-15T08:42:45.858Z"}
+{"level":"info","message":"MongoDB connected","service":"identity-service","timestamp":"2025-05-15T08:42:46.230Z"}
+{"level":"info","message":"Received POST request to /api/auth/refresh-token","service":"identity-service","timestamp":"2025-05-15T09:00:53.478Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-05-15T09:00:53.490Z"}
+{"level":"info","message":"Refresh token endpoint hit...","service":"identity-service","timestamp":"2025-05-15T09:00:53.511Z"}
+{"level":"warn","message":"Refresh token missing","service":"identity-service","timestamp":"2025-05-15T09:00:53.512Z"}
+{"level":"info","message":"Received POST request to /api/auth/refresh-token","service":"identity-service","timestamp":"2025-05-15T09:01:30.120Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-05-15T09:01:30.121Z"}
+{"level":"info","message":"Refresh token endpoint hit...","service":"identity-service","timestamp":"2025-05-15T09:01:30.124Z"}
+{"level":"warn","message":"Invalid or expired refresh token","service":"identity-service","timestamp":"2025-05-15T09:01:30.176Z"}
+{"level":"info","message":"Identity service running on port 3002","service":"identity-service","timestamp":"2025-05-15T09:03:32.199Z"}
+{"level":"info","message":"MongoDB connected","service":"identity-service","timestamp":"2025-05-15T09:03:32.872Z"}
+{"level":"info","message":"Received POST request to /api/auth/refresh-token","service":"identity-service","timestamp":"2025-05-15T09:03:43.127Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-05-15T09:03:43.128Z"}
+{"level":"info","message":"Refresh token endpoint hit...","service":"identity-service","timestamp":"2025-05-15T09:03:43.135Z"}
+{"level":"warn","message":"Invalid or expired refresh token","service":"identity-service","timestamp":"2025-05-15T09:03:43.151Z"}
+{"level":"info","message":"Received POST request to /api/auth/refresh-token","service":"identity-service","timestamp":"2025-05-15T09:04:35.011Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-05-15T09:04:35.012Z"}
+{"level":"info","message":"Refresh token endpoint hit...","service":"identity-service","timestamp":"2025-05-15T09:04:35.016Z"}
+{"level":"info","message":"Identity service running on port 3002","service":"identity-service","timestamp":"2025-05-15T09:04:58.472Z"}
+{"level":"info","message":"MongoDB connected","service":"identity-service","timestamp":"2025-05-15T09:04:59.142Z"}

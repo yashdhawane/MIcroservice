@@ -111,7 +111,7 @@ const refreshTokenUser = async (req, res) => {
 
   try {
     const storedToken = await RefreshToken.findOne({ token: refreshToken });
-
+    // console.log(storedToken);
     if (!storedToken || storedToken.expiresAt < new Date()) {
       logger.warn("Invalid or expired refresh token");
       return res.status(401).json({ success: false, message: "Invalid or expired refresh token" });
