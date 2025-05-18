@@ -40,7 +40,7 @@ app.use(ratelimitOptions);
 
 app.use((req, res, next) => {
   logger.info(`Received ${req.method} xrequest to ${req.url}`);
-  logger.info(`Request body, ${req.body}`);
+  logger.info(`Request body, ${JSON.stringify(req.body)}`);
   next();
 });
 

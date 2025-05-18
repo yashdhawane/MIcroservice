@@ -32,8 +32,8 @@ router.post("/upload", authenticateRequest,
                 logger.error("Unknown error occured while uploading:", error);
         return res.status(500).json({
           message: "Unknown error occured while uploading:",
-          error: err.message,
-          stack: err.stack,
+          error: error.message,
+          stack: error.stack,
         });
         }
 
