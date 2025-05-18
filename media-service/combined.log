@@ -129,3 +129,15 @@
 {"http_code":401,"level":"error","message":"cloud_name is disabled","name":"Error","service":"media-service","timestamp":"2025-05-18T07:13:11.893Z"}
 {"0":"{","1":"\"","10":":","11":"\"","12":"c","13":"l","14":"o","15":"u","16":"d","17":"_","18":"n","19":"a","2":"m","20":"m","21":"e","22":" ","23":"i","24":"s","25":" ","26":"d","27":"i","28":"s","29":"a","3":"e","30":"b","31":"l","32":"e","33":"d","34":"\"","35":",","36":"\"","37":"n","38":"a","39":"m","4":"s","40":"e","41":"\"","42":":","43":"\"","44":"E","45":"r","46":"r","47":"o","48":"r","49":"\"","5":"s","50":",","51":"\"","52":"h","53":"t","54":"t","55":"p","56":"_","57":"c","58":"o","59":"d","6":"a","60":"e","61":"\"","62":":","63":"4","64":"0","65":"1","66":"}","7":"g","8":"e","9":"\"","exception":{"http_code":401,"message":"cloud_name is disabled","name":"Error"},"level":"error","message":"Unhandled Rejection at:","service":"media-service","timestamp":"2025-05-18T07:13:11.894Z"}
 {"http_code":401,"level":"error","message":"cloud_name is disabled","name":"Error","service":"media-service","timestamp":"2025-05-18T07:13:11.895Z"}
+{"level":"info","message":"Media service is running on port 3004","service":"media-service","timestamp":"2025-05-18T14:16:23.685Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-18T14:16:24.872Z"}
+{"level":"info","message":"Media service is running on port 3004","service":"media-service","timestamp":"2025-05-18T14:16:26.965Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-18T14:16:28.364Z"}
+{"level":"info","message":"Media service is running on port 3004","service":"media-service","timestamp":"2025-05-18T14:18:07.546Z"}
+{"level":"info","message":"Media service is running on port 3004","service":"media-service","timestamp":"2025-05-18T14:18:07.545Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-18T14:18:08.944Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-18T14:18:08.963Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"media-service","timestamp":"2025-05-18T15:33:40.609Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"media-service","timestamp":"2025-05-18T15:33:40.671Z"}
+{"level":"info","message":"Media service running on port 3004","service":"media-service","timestamp":"2025-05-18T15:33:40.675Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-18T15:33:40.883Z"}

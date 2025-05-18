@@ -13,7 +13,7 @@ const errorHandler = require('../middleware/errorhandler');
 const { validateToken } = require('../middleware/authvalidater');
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT;
 
 const redisClient = new Redis(process.env.REDIS_URL);
 
@@ -53,6 +53,7 @@ const proxyOptions = {
     res.status(500).json({
       message: `Internal server error`,
       error: err.message,
+      details: err,
     });
   },
 };
