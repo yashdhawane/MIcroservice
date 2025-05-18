@@ -6,6 +6,8 @@ const helmet = require("helmet");
 const mediaRoutes = require("../routes/media-routes");
 const errorHandler = require("../middleware/errorHandler");
 const logger = require("../utils/logger");
+const Redis = require("ioredis");
+const redisClient = new Redis(process.env.REDIS_URL);
 const { RedisStore } = require("rate-limit-redis");
 const rateLimit = require("express-rate-limit");
 
@@ -55,5 +57,6 @@ app.listen(PORT, () => {
 })
 
 process.on("unhandledRejection", (reason,promise) => {
-    logger.error("Unhandled Rejection at:", promise, "reason:", reason);
+    logger.error("Unhandled Rejection at:", promise, "reason:", reason instanceof Error ? reason.stack : JSON.stringify(reason));
+   
 })
