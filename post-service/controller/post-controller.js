@@ -35,6 +35,13 @@ const createPost = async (req, res) => {
 
     await newlyCreatedPost.save();
 
+    await publishEvent("post.created", {
+      postId: newlyCreatedPost._id.toString(),
+      userId: newlyCreatedPost.user.toString(),
+      content: newlyCreatedPost.content,
+      createdAt: newlyCreatedPost.createdAt,
+    });
+    
     // Invalidate the cache
     await invalidatePostCache(req, newlyCreatedPost._id.toString());
 
@@ -155,7 +162,7 @@ const deletePost = async (req, res) => {
       mediaIds: post.mediaIds,
     });
 
-    
+
  await invalidatePostCache(req, req.params.id);
     res.json({
       message: "Post deleted successfully",
