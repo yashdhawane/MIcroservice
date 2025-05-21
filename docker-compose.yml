@@ -1,0 +1,81 @@
+version: '3.8'
+
+services:
+  api-gateway:
+    build: ./api-gateway
+    ports:
+      - "3001:3001"
+    env_file: ./api-gateway/.env
+    depends_on:
+      - redis-server
+      - rabbitmq
+    networks:
+      - micro-network
+
+  identity-service:
+    build: ./identity-service
+    env_file: ./identity-service/.env
+    ports:
+      - "3002:3002"
+    depends_on:
+      - redis-server
+      - rabbitmq
+    networks:
+      - micro-network
+
+  post-service:
+    build: ./post-service
+    env_file: ./post-service/.env
+    ports:
+      - "3003:3003"
+    depends_on:
+      - redis-server
+      - rabbitmq
+    networks:
+      - micro-network
+  
+  media-service:
+    build: ./media-service
+    env_file: ./media-service/.env
+    ports:
+      - "3004:3004"
+    depends_on:
+      - redis-server
+      - rabbitmq
+    networks:
+      - micro-network
+    
+  search-service:
+    build: ./search-service
+    env_file: ./search-service/.env
+    ports:
+      - "3005:3005"
+    depends_on:
+      - redis-server
+      - rabbitmq
+    networks:
+      - micro-network
+    
+  redis-server:
+    image: redis
+    ports:
+      - "6379:6379"
+    networks:
+      - micro-network
+
+  rabbitmq:
+    image: rabbitmq:3-management
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    healthcheck:
+      test: [ "CMD", "rabbitmq-diagnostics", "-q", "ping" ]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+    networks:
+      - micro-network
+
+networks:
+  micro-network:
+    driver: bridge

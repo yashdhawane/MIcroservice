@@ -141,3 +141,14 @@
 {"level":"info","message":"Subscribed to event: post.deleted","service":"media-service","timestamp":"2025-05-18T15:33:40.671Z"}
 {"level":"info","message":"Media service running on port 3004","service":"media-service","timestamp":"2025-05-18T15:33:40.675Z"}
 {"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-18T15:33:40.883Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-21T18:24:38.711Z"}
+{"code":"ENOTFOUND","errno":-3008,"hostname":"rabbitmq","level":"error","message":"Error connecting to rabbit mq getaddrinfo ENOTFOUND rabbitmq","service":"media-service","stack":"Error: getaddrinfo ENOTFOUND rabbitmq\n    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26)","syscall":"getaddrinfo","timestamp":"2025-05-21T18:24:39.351Z"}
+{"code":"ENOTFOUND","errno":-3008,"hostname":"rabbitmq","level":"error","message":"Error connecting to rabbit mq getaddrinfo ENOTFOUND rabbitmq","service":"media-service","stack":"Error: getaddrinfo ENOTFOUND rabbitmq\n    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26)","syscall":"getaddrinfo","timestamp":"2025-05-21T18:24:40.374Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"media-service","timestamp":"2025-05-21T18:25:20.455Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"media-service","timestamp":"2025-05-21T18:25:20.506Z"}
+{"level":"info","message":"Media service running on port 3004","service":"media-service","timestamp":"2025-05-21T18:25:20.510Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-21T18:25:20.576Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"media-service","timestamp":"2025-05-21T18:30:18.094Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"media-service","timestamp":"2025-05-21T18:30:18.161Z"}
+{"level":"info","message":"Media service running on port 3004","service":"media-service","timestamp":"2025-05-21T18:30:18.170Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-21T18:30:18.465Z"}
